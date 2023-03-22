@@ -1,0 +1,154 @@
+
+
+
+
+.main-hero {
+  
+  background-color: #ab7f0e;
+  color: floralwhite;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-around;
+
+  h1 {
+    font-size: 3rem;
+    line-height: 150%;
+    width:80%;
+    
+    text-align: center;
+  }
+}
+
+.video-element {
+  width: 90%;
+  max-width: 800px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+/* Customize the video controls */
+.video-element::-webkit-media-controls {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+
+
+.video-element::-webkit-media-controls-volume-slider {
+  width: 100%;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+.video-element::-webkit-media-controls-current-time-display,
+.video-element::-webkit-media-controls-time-remaining-display {
+  color: #fff;
+  font-size: 14px;
+}
+
+
+.time-card {
+  background-color: rgb(245, 245, 245);
+  box-shadow: 5px 5px 16px 0px #0a0808;
+  font-family: poppins;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  
+
+
+}
+.venue-card {
+  --bs-gutter-x:0 !important;
+  width: 100%;
+  transform: translateY(-20%);
+}
+
+.card1 {
+  background-color: #edf3f9;
+  color: #022649;
+}
+@media all and (max-width: 1224px) {
+  .main-hero {
+   
+    
+    h1 {
+      font-size: 1.8rem;
+      line-height: 130%;
+      
+    }
+   
+  }
+}
+
+
+
+@media all and (max-width: 1024px) {
+  .main-hero {
+  
+    
+    h1 {
+      font-size: 1.6rem;
+      line-height: 130%;
+    
+      padding:1.5%;
+    }
+     
+
+  }
+}
+
+
+@media all and (max-width: 768px) {
+  .main-hero {
+    display:block;
+    h1 {
+      font-size: 2rem;
+      line-height: 135%;
+      width: 100%;
+     
+    }
+  }
+  .time-card {
+    text-align: center;
+    box-shadow: none;
+  }
+  .venue-card {
+    transform: translateY(0%);
+  }
+}
+
+
+@media all and (max-width: 480px) {
+  .main-hero {
+    display:block;
+   
+    h1 {
+      font-size: 1.8rem;
+      line-height: 135%;
+      width: 100%;
+    }
+  }
+  
+}
+
+@media all and (max-width: 320px) {
+  .main-hero {
+    display:block;
+    
+    h1 {
+      font-size: 1.5rem;
+      line-height: 120%;
+      width: 100%;
+    }
+  }
+  
+}
+

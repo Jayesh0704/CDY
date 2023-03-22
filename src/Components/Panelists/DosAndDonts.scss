@@ -1,0 +1,15 @@
+#dos-and-donts {
+  img {
+    height: auto;
+  }
+}
+
+@media all and (min-width: 768px) {
+  #dos-and-donts {
+    
+    li {
+      font-size: 1.25rem;
+      line-height: 200%;
+    }
+  }
+}
